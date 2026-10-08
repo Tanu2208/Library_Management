@@ -44,10 +44,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-10-08 10:56:49.166949",
+ "modified": "2026-10-08 17:26:43.874215",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -65,7 +66,10 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "search_fields": "full_name",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }
